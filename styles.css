@@ -1,0 +1,202 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Handlee', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(65, 65, 65);
+}
+.header-img{
+    width: 20vw;
+}
+.header-img-img{    
+
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.img-header{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.header-navbar{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);    
+    font-size: 15px;
+}
+
+.nav-list a:hover{
+    border-bottom: solid;
+    border-width: 2px;
+    margin: 5px;
+    border-color: white;
+    transition: all 0.3s ease;
+}
+
+.nav-list  img{
+    max-width: 30px;
+}
+
+.header-rrss{
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+/*End Header*/
+/*Begining body*/
+.container{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+   
+}
+.container-bg-img{
+    width: 100%;
+    height: 100%;
+    background-image: url("img/container-bg.jpeg");
+    background-position: center;
+    background-size: cover  ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.container-shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+.container-content h1{
+    color: white;
+    font-size: 60px;
+}
+
+.container-content p{
+    color: white;
+    font-size: 30px;
+}
+
+.container-owel{
+    width: 100%;
+    background-color: black;
+   margin-top: 20px;
+   margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   width: 90%;
+}
+.container-owel-content{
+    width: 100%;
+    height: 100%;
+    margin-left: 110px;
+}
+.container-footer{
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    flex-wrap: nowrap;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.container-footer ul {
+    list-style-type:circle;
+}
+
+.container-footer-section{
+    width: 40%;
+}
+
+.container-footer-section-title h3{
+    color: white;
+
+    margin-left: 10px;
+    font-size: 35px;
+}
+.container-footer-section li{
+    list-style-type: none;
+    width: 100%;
+    gap:5px;
+}
+
+.container-footer-section a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);    
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.container-footer-section a:hover{
+    border-bottom: solid;
+    border-width: 2px;
+    margin: 5px;
+    border-color: white;
+    transition: all 0.3s ease;
+}
+.separador{
+    background-color: gray;
+    height: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: grey;
+    height: 20px;
+}
